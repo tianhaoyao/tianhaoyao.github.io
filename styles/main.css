@@ -1,0 +1,16 @@
+body {
+	background: #999;
+	font-family: "agency fb";
+}
+
+h1, h2 {
+	color: #333;
+}
+
+a {
+	color: green;
+}
+
+p {
+	padding: 10px;
+}
