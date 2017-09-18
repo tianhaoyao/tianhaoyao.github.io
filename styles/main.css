@@ -1,10 +1,37 @@
 body {
+	margin: 0;
 	background: #999;
-	font-family: "agency fb";
+	font-family: "Century Gothic";
 }
 
-h1, h2 {
+header {
+	background: white;
+	color: #555;
+	padding: 5px 15px 0 15px;
+}
+
+header h1 {
+	margin: 0;
 	color: #333;
+	display: inline;
+}
+
+nav ul{
+	margin: 0;
+	display: inline;
+}
+
+nav ul li{
+	background: black;
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+	margin: 0px;
+}
+
+nav ul li a{
+	color: white;
 }
 
 a {
