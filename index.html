@@ -25,12 +25,54 @@
 .nav-tabs{
 	margin-bottom: 0;
 }
+
+#section1 {padding-top:50px;height:screen.height;color: #fff; background-color: rgba(255, 0, 0, 0.3); text-align: center;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: rgba(0, 255, 0, 0.3); text-align: center;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: rgba(0, 0, 255, 0.3); text-align: center;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4; text-align: center;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688; text-align: center;}
+
+
 </style>
 
 </head>
-<body>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Tianhao Yao</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">home</a></li>
+          <li><a href="#section2">about me</a></li>
+          <li><a href="#section3">resume</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">xd <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+
+
+
+<div id="section1" class="container-fluid">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -41,7 +83,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="photos/a.jpg" alt="Chania">
+      <img src="photos/a.jpg" alt="Chania" width="200" height="40">
       <div class="carousel-caption">
         <h3>best honor</h3>
         <p>girver s trsh!</p>
@@ -49,7 +91,7 @@
     </div>
 
     <div class="item">
-      <img src="photos/b.jpg" alt="Chicago">
+      <img src="photos/b.jpg" alt="Chicago" width="200" height="40"> 
       <div class="carousel-caption">
         <h3>sick background</h3>
         <p>dxdxdxdxdxdxd</p>
@@ -57,7 +99,7 @@
     </div>
 
     <div class="item">
-      <img src="photos/c.jpg" alt="New York">
+      <img src="photos/c.jpg" alt="New York" width="200" height="40">
       <div class="carousel-caption">
         <h3>Xiamei Jiang</h3>
         <p>Best Prof</p>
@@ -75,6 +117,31 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Section 2</h1>
+  <p>I love zerojaw</p>
+  <p>He is my favourite player</p>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Section 3</h1>
+  <p>Why is he such a qtpie omgg</p>
+  <p>cute af</p>
+</div>
+<div id="section41" class="container-fluid">
+  <h1>Section 4 Submenu 1</h1>
+  <p>why do i love him</p>
+  <p>he is so beautiful</p>
+</div>
+<div id="section42" class="container-fluid">
+  <h1>Section 4 Submenu 2</h1>
+  <p>ahh he makes me</p>
+  <p>head over heels</p>
+</div>
+
+
+
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
