@@ -8,10 +8,49 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+  overflow: hidden;
 }
 body {
+  height: 100vh;
   margin: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  -webkit-perspective: 1px;
+  perspective: 1px;
 }
+
+.parallax-group {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.back {
+  -webkit-transform:translateZ(-1px) scale(2);
+  transform:translateZ(-1px) scale(2);
+  position: relative;
+  top: calc(((100vh - 45.78313253vw) / 4) * -2);
+  display: block;
+}
+
+.front {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2em 1em;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.frontpara {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 4em 1em;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
 article,
 aside,
 details,
@@ -1088,6 +1127,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+  margin: 0;
 }
 input,
 button,
@@ -1114,6 +1154,7 @@ figure {
   margin: 0;
 }
 img {
+  width: 100%;
   vertical-align: middle;
 }
 .img-responsive,
@@ -1271,6 +1312,13 @@ h1,
 h2,
 .h2 {
   font-size: 30px;
+  -webkit-transform: translateZ(-0.5px) scale(1.5);
+  transform: translateZ(-0.5px) scale(1.5);
+  position: absolute;
+  top: 10em;
+  width: 100%;
+  text-align: center;
+  color: yellow;
 }
 h3,
 .h3 {
