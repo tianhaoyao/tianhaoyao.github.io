@@ -75,80 +75,20 @@ html, body {
 
 }
 
-.introduction {
+.container-fluid {
 	font-family: 'Raleway', sans-serif;
 	font-size: 150%;
 	font-weight: 100;
 	color: black;
-	line-height: 140%;
-	padding-left: 20%;
-	padding-right: 20%;
+	line-height: 150%;
 }
 
-.introduction h2{
+.container-fluid h2{
 	font-family: 'Raleway', sans-serif;
 	font-size: 250%;
 	font-weight: 100;
 	color: black;
-	line-height: 200%;
-	padding-left: 20%;
-	padding-right: 20%;
-	text-align: center;
-}
-
-.resume {
-	font-family: 'Raleway', sans-serif;
-	font-size: 150%;
-	font-weight: 100;
-	color: black;
-	line-height: 200%;
-	padding-left: 20%;
-	padding-right: 20%;
-	text-align: left;
-}
-
-.resume h2{
-	font-family: 'Raleway', sans-serif;
-	font-size: 250%;
-	font-weight: 100;
-	color: black;
-	line-height: 200%;
-	padding-left: 20%;
-	padding-right: 20%;
-	text-align: center;
-}
-
-.projects {
-	font-family: 'Raleway', sans-serif;
-	font-size: 150%;
-	font-weight: 100;
-	color: black;
-	line-height: 200%;
-	padding-left: 20%;
-	padding-right: 20%;
-	text-align: left;
-}
-
-.projects h2{
-	font-family: 'Raleway', sans-serif;
-	font-size: 250%;
-	font-weight: 100;
-	color: black;
-	line-height: 200%;
-	padding-left: 20%;
-	padding-right: 20%;
-	text-align: center;
-}
-
-.resume h2{
-	font-family: 'Raleway', sans-serif;
-	font-size: 250%;
-	font-weight: 100;
-	color: black;
-	line-height: 200%;
-	padding-left: 20%;
-	padding-right: 20%;
-	text-align: center;
+	line-height: 300%;
 }
 
 .navbar-nav{
