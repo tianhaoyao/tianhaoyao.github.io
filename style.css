@@ -20,7 +20,7 @@ html, body {
 	background-size: cover;
 }
 
-.intro {
+.home {
 	height: 100%;
 	width: 100%;
 	margin: auto;
@@ -30,11 +30,25 @@ html, body {
 	background-size: cover;
 }
 
-.intro .inner {
+.home .inner {
 	display: table-cell;
 	vertical-align: middle;
 	width: 100%;
 	max-width: none;
+}
+
+.introduction {
+	height: 100vh;
+
+	margin: auto;
+	background: url("resources/sakura.jpg") no-repeat 25% 25%; 
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.img-circle {
+	border-radius:50%;
 }
 
 .content {
@@ -49,7 +63,7 @@ html, body {
 	font-size: 500%;
 	font-weight: 100;
 	color: white;
-	line-height: 60%;
+	line-height: 100%;
 	text-shadow: 0px 0px 7px black;
 	display:inline;
 }
@@ -59,7 +73,7 @@ html, body {
 	font-size: 200%;
 	font-weight: 100;
 	color: white;
-	line-height: 200%;
+	line-height: 30%;
 	text-shadow: 0px 0px 7px black;
 }
 
@@ -85,7 +99,7 @@ html, body {
 
 .container-fluid h2{
 	font-family: 'Raleway', sans-serif;
-	font-size: 250%;
+	font-size: 350%;
 	font-weight: 100;
 	color: black;
 	line-height: 300%;
