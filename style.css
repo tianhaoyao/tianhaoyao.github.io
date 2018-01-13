@@ -68,10 +68,20 @@ html, body {
 }
 
 .contact {
-	height: 70vh;
+	height: 10vh;
 	width: 100%;
 	margin: auto;
 	background: url("resources/bg6.jpg") no-repeat 25% 25%; 
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.foot {
+	padding-top: 1vh;
+	width: 100%;
+	margin: auto;
+	background-color: black; 
 	display: table;
 	top: 0;
 	background-size: cover;
@@ -225,6 +235,41 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.contact ul {
+	display: flex;
+	text-align: center;
+	top: 50%;
+	position: absolute;
+	left: 50%;
+	transform:translate(-50%, -50%);
+}
+
+.contact ul li {
+	background: #000;
+	margin: 10px;
+	list-style: none;
+	font-size: 24px;
+	transition: .5s;
+}
+
+.contact ul li a{
+	width:60px;
+	padding: 16px 0;
+	display: block;
+	color: #fff;
+}
+
+.contact ul li:hover {
+	transform: translateY(-8px);
+	box-shadow:0 10px 10px rgba(0,0,0,.5);
 }
 
 
