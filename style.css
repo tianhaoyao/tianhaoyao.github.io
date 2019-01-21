@@ -38,40 +38,43 @@ html, body {
 }
 
 .introduction {
-	height: 100vh;
+	background: url("resources/bg3.jpg") no-repeat 25% 25%; 
 	width: 100%;
 	margin: auto;
-	background: url("resources/bg3.jpg") no-repeat 25% 25%; 
 	display: table;
 	top: 0;
 	background-size: cover;
+	padding-bottom: 10%;
 }
 
-.resume {
-	height: 100vh;
+.skills {
+	background: url("resources/bg4.jpg") no-repeat 25% 25%; 
 	width: 100%;
 	margin: auto;
-	background: url("resources/bg4.jpg") no-repeat 25% 25%; 
 	display: table;
 	top: 0;
 	background-size: cover;
+	padding-bottom: 10%;
+}
+
+.btn btn-primary {
+	font-size: 5;
 }
 
 .projects {
-	height: 100vh;
+	background: url("resources/bg5.jpg") no-repeat 25% 25%; 
 	width: 100%;
 	margin: auto;
-	background: url("resources/bg5.jpg") no-repeat 25% 25%; 
 	display: table;
 	top: 0;
 	background-size: cover;
+	padding-bottom: 10%;
 }
 
 .contact {
 	height: 10vh;
 	width: 100%;
 	margin: auto;
-	background: url("resources/bg6.jpg") no-repeat 25% 25%; 
 	display: table;
 	top: 0;
 	background-size: cover;
@@ -99,17 +102,18 @@ html, body {
 }
 
 .content h1 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 500%;
+	font-family: 'Dosis', sans-serif;
+	font-size: 700%;
 	font-weight: 100;
 	color: white;
 	line-height: 100%;
 	text-shadow: 0px 0px 7px black;
 	display:inline;
+	padding-bottom: 2%;
 }
 
 .content h3 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-size: 200%;
 	font-weight: 100;
 	color: white;
@@ -118,27 +122,29 @@ html, body {
 }
 
 .navbar {
-	font-family: 'Agency FB', sans-serif;
-	font-size: 200%;
+	font-family: 'Dosis', sans-serif;
+	font-style: bold;
+	font-size: 175%;
 	position: fixed;
 	width: 100%;
 	padding-top: 10px;
+	padding-bottom: 10px;
 	top: 0;
 	text-align: center;
-	background-color:rgba(255,255,255,0.5);
+	background-color:rgba(255,255,255,0.3);
 
 }
 
 .container-fluid {
-	font-family: 'Raleway', sans-serif;
-	font-size: 150%;
+	font-family: 'Dosis', sans-serif;
+	font-size: 175%;
 	font-weight: 100;
 	color: black;
 	line-height: 150%;
 }
 
 .container-fluid h2{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-size: 350%;
 	font-weight: 100;
 	color: black;
@@ -146,9 +152,9 @@ html, body {
 }
 
 .navbar-nav{
-	float:none;
 	text-align: center;
 	display: inline-block;
+	float:none;
 }
 
 .navbar-nav li{
@@ -170,12 +176,12 @@ html, body {
 .btn {
     padding: 14px 24px;
     border: 0 none;
-    font-weight: 700;
+
     letter-spacing: 1px;
     border-radius:20px;
     text-align:center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 250%;
+    font-family: 'Consolas', sans-serif;
+    font-size: 100%;
 	font-weight: 100;
 	color: black;
 	line-height: 100%;
@@ -188,43 +194,8 @@ html, body {
     background: #0099cc;
     color: #ffffff;
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #33a6cc;
-}
-.btn-primary:active, .btn-primary.active {
-    background: #007299;
-    box-shadow: none;
-}
 
-.btn-primary.gradient {
-	background: -moz-linear-gradient(top,  #33a6cc 50%, #0099cc 50%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#33a6cc), color-stop(50%,#0099cc)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #33a6cc 50%,#0099cc 50%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #33a6cc 50%,#0099cc 50%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #33a6cc 50%,#0099cc 50%); /* IE10+ */
-	background: linear-gradient(to bottom,  #33a6cc 50%,#0099cc 50%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33a6cc', endColorstr='#0099cc',GradientType=0 ); /* IE6-9 */
-}
 
-.btn-primary.gradient:hover, .btn-primary.gradient:focus, .btn-primary.gradient:active, .btn-primary.gradient.active, .open > .dropdown-toggle.btn-primary {
-	background: -moz-linear-gradient(top,  #66b2cc 50%, #33a6cc 50%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#66b2cc), color-stop(50%,#33a6cc)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #66b2cc 50%,#33a6cc 50%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #66b2cc 50%,#33a6cc 50%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #66b2cc 50%,#33a6cc 50%); /* IE10+ */
-	background: linear-gradient(to bottom,  #66b2cc 50%,#33a6cc 50%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66b2cc', endColorstr='#33a6cc',GradientType=0 ); /* IE6-9 */
-}
-
-.btn-primary.gradient:active, .btn-primary.gradient.active {
-	background: -moz-linear-gradient(top,  #267c99 50%, #007299 50%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#267c99), color-stop(50%,#007299)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #267c99 50%,#007299 50%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #267c99 50%,#007299 50%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #267c99 50%,#007299 50%); /* IE10+ */
-	background: linear-gradient(to bottom,  #267c99 50%,#007299 50%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#267c99', endColorstr='#007299',GradientType=0 ); /* IE6-9 */
-}
 
 .btn-block {
     padding: 5% 0; 
@@ -243,31 +214,31 @@ a:hover {
     text-decoration: none;
 }
 
-.contact ul {
+.projects ul {
 	display: flex;
 	text-align: center;
-	top: 50%;
+	top: 80%;
 	position: absolute;
 	left: 50%;
-	transform:translate(-50%, -50%);
+	transform:translate(-50%, 150%);
 }
 
-.contact ul li {
-	background: #000;
+.projects ul li {
+	background: #23a10f;
 	margin: 10px;
 	list-style: none;
-	font-size: 24px;
+	font-size: 20px;
 	transition: .5s;
 }
 
-.contact ul li a{
+.projects ul li a{
 	width:60px;
 	padding: 16px 0;
 	display: block;
 	color: #fff;
 }
 
-.contact ul li:hover {
+.projects ul li:hover {
 	transform: translateY(-8px);
 	box-shadow:0 10px 10px rgba(0,0,0,.5);
 }
