@@ -7,23 +7,19 @@
 	<meta name="viewport" content="width = device-width, initial-scale = "1">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-
-	
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<!-- Bootstrap 3 -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-	<!--Awesome Font Icons-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-	
-	
 
 	<link href="css/animate.css" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/css/mdb.min.css" rel="stylesheet">
 	
 </head>
 
@@ -31,8 +27,8 @@
 
 
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-					<div class="navbar-header">
+	<nav class="navbar navbar-default navbar-fixed">
+			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -50,41 +46,35 @@
 			</div>
 		
 	</nav>
-
-	<section class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="1s">
-		<section class="home">
+	
+	<section class="home">
+		<header>
 			<div class="inner" id="home">
-				<div class="content">
-					<section class="os-animation" data-os-animation="flipInX" data-os-animation-delay="1.7s">
-						<img class="img-circle" src="resources/profile.jpg" alt="my beautiful face" style="width:35%;height:35%;" vspace=5%>
-					</section>
-
-
-					<section class="os-animation" data-os-animation="flipInX" data-os-animation-delay="1.9s">
-						<h1>
-							Leo Yao
-						</h1>
-					</section>
-					<section class="os-animation" data-os-animation="flipInX" data-os-animation-delay="2.1s">
-						<h3>
-							UTSC · Software Engineer Specialist
-						</h3>
-					</section>
-					<section class="os-animation" data-os-animation="flipInX" data-os-animation-delay="2.3s">
-						<h3>
-							<a href=https://www.linkedin.com/in/leo-yao-b47162127/><i class="fab fa-linkedin-in" aria-hidden="true"></i></a> ·
-							<a href=https://github.com/tianhaoyao><i class="fab fa-github" aria-hidden="true"></i></a> ·
-							<a href=resources/Resume.pdf><i class="fas fa-file-alt" aria-hidden="true"></i></a>
-						</h3>
-					</section>
-
-
-				</div>
+			<div class="content">
+				
+				<img class="img-circle" src="resources/profile.jpg" alt="my beautiful face" style="width:45%;height:45%;" vspace=5%>
+				<br>
+				<h1>
+					Leo Yao
+				</h1>
+					
+				<h3>
+					UTSC · Software Engineer Specialist
+				</h3>
+					
+				<h3>
+					<a href=https://www.linkedin.com/in/leo-yao-b47162127/><i class="fab fa-linkedin-in" aria-hidden="true"></i></a> ·
+					<a href=https://github.com/tianhaoyao><i class="fab fa-github" aria-hidden="true"></i></a> ·
+					<a href=resources/Resume.pdf><i class="fas fa-file-alt" aria-hidden="true"></i></a>
+				</h3>
 			</div>
-		</section>
+		</div>
+		</header>
+		
+		<div class="wave"></div>
 	</section>
 
-<section class="introduction">
+	<section class="introduction">
 
 	<div class="container-fluid" id="introduction">
 		
@@ -112,33 +102,43 @@
 	</div>
 
 	</section>
-
-
-	<section class="skills">
-	<div class="container-fluid" id="skills">
+	
+	<section class="Skills">
+		<div class="wave2"></div>
+		<header2>
+			
+			<div class="container-fluid" id="skills">
 		<div class="row">
 			<div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
 				
 				<h2>Skills</h2>
-				<div class="btn-group inline"> 
-					<button type="button" class="btn btn-primary">Java</button>
-  					<button type="button" class="btn btn-primary">Python</button>
-  					<button type="button" class="btn btn-primary">C</button>
-  					<button type="button" class="btn btn-primary">HTML</button>
-  					<button type="button" class="btn btn-primary">CSS</button>
-  					<button type="button" class="btn btn-primary">Git</button>
-  					<button type="button" class="btn btn-primary">SVN</button>
-  					<button type="button" class="btn btn-primary">Haskell</button>
-  					<button type="button" class="btn btn-primary">SQL</button>
+				<div class="col-md-12 text-center"> 
+					<button type="button" class="btn peach-gradient waves-effect" style="font-size: 100%; font-family: 'Consolas';">Java</button>
+					<button type="button" class="btn aqua-gradient waves-effect" style="font-size: 100%; font-family: 'Consolas'">Python</button>
+					<button type="button" class="btn ripe-malinka-gradient waves-effect" style="font-size: 100%; font-family: 'Consolas'">C</button>
+					<button type="button" class="btn dusty-grass-gradient waves-effect" style="font-size: 100%; font-family: 'Consolas'">HTML</button>
+					<button type="button" class="btn winter-neva-gradient waves-effect" style="font-size: 100%; font-family: 'Consolas'">CSS</button>
+					<button type="button" class="btn spring-warmth-gradient waves-effect" style="font-size: 100%; font-family: 'Consolas'">Git</button>
+					<button type="button" class="btn spring-warmth-gradient waves-effect" style="font-size: 100%; font-family: 'Consolas'">SVN</button>
+					<button type="button" class="btn tempting-azure-gradient waves-effect" style="font-size: 100%; font-family: 'Consolas'">Haskell</button>
+					<button type="button" class="btn night-fade-gradient waves-effect" style="font-size: 100%; font-family: 'Consolas'">SQL</button>
+
 
       			</div>
 			</div>
 		</div>
 
 	</div>
+
+		</header2>
+		
+	
+
+		
 	</section>
 
-<section class="projects">
+
+	<section class="projects">
 	<div class="container-fluid" id="projects">
 		<div class="row">
 			<div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
@@ -191,21 +191,11 @@
             
             </div>
 
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-left">
-
-	
-				<ul>
-
-					<li><a href=https://www.linkedin.com/in/leo-yao-b47162127/><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-					<li><a href=https://github.com/tianhaoyao><i class="fab fa-github" aria-hidden="true"></i></a></li>
-
-				</ul>
-				
-
-			</div>
+            
 		</div>
 	</div>
 </section>
+
 
 <section class="foot">
 	<div class="container-fluid" id="contact">
@@ -217,8 +207,6 @@
 		</div>
 	</div>
 </section>
-
-
 
 </body>
 
@@ -233,5 +221,7 @@
 <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
 <script src="js/waypoints.js" type="text/javascript"></script>
 <script src="js/navshrink.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/js/mdb.min.js"></script>
 </body>
 </html>
