@@ -6,6 +6,7 @@ html{
 
 	height: 100%;
 	overflow: hidden;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -26,27 +27,28 @@ body {
 	font-family: 'Dosis', sans-serif;
 	font-style: bold;
 	font-size: 175%;
-	position: fixed;
+	position: sticky;
 	width: 100%;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	top: 0;
+	left:0;
 	text-align: center;
 	background-color:rgba(255,255,255,0.7);
+	z-index: 1;
+
 
 }
 
 .navbar-nav{
 	text-align: center;
-	display: inline-block;
-	float:none;
-}
-
-.navbar-nav li{
-	display: inline-block;
+	z-index: 0;
 	float:none;
 
+
 }
+
+
 
 .os-animation{
 	height: 100%;
@@ -120,6 +122,16 @@ h3 {
 	padding-bottom: 1%;
 }
 
+placeholder{
+	position: absolute;
+	transform-style: inherit;
+	width: 100vw;
+	display: table;
+	vertical-align: center;
+	background-color: #fff;
+	height: 0%;
+}
+
 header {
 	position: relative;
 	transform-style: inherit;
@@ -138,15 +150,9 @@ header .content {
 
 
 
-
-
-
-
-
-
 header::before {
 	bottom: 0;
-	content: ""''"";
+	content: "";
 	left: 0;
 	position: absolute;
 	right: 0;
@@ -175,7 +181,7 @@ header2 {
 
 header2::before {
 	bottom: 0;
-	content: ""''"";
+	content: "";
 	left: 0;
 	position: absolute;
 	right: 0;
@@ -197,6 +203,10 @@ header2::before {
 section {
 	width: 100%;
 	height: 100vh;
+}
+
+section .navb {
+	height: 0vh;
 }
 
 section .wave {
@@ -282,7 +292,7 @@ section .wave:after {
 }
 
 .introduction {
-	background-color: #fff;
+	background-color: #FFFFFF;
 	opacity: 0.7;
 	height: auto;
 	padding-bottom: 15%
