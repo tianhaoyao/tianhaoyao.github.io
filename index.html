@@ -1,136 +1,479 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
 	<title>Leo Yao</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width = device-width, initial-scale = "1">
-	
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
-	<!-- Bootstrap 3 -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	<meta name="description" content="">  
+	<meta name="author" content="">
 
-	<link href="css/animate.css" rel="stylesheet"/>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- Material Design Bootstrap -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/css/mdb.min.css" rel="stylesheet">
-	
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
 
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">Leo</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>				
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+						<!-- <li><a href="styles.html" title="">Style Demo</a></li>				 -->
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h1>Leo Yao.</h1>
+
+	   			<p class="intro-position">
+					   <span>Software Engineer</span>
+					   <span>University of Toronto</span>
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">Who are you?</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="https://www.linkedin.com/in/leo-yao-b47162127/"><i class="fa fa-linkedin"></i></a></li>
+         <li><a href="https://github.com/tianhaoyao"><i class="fa fa-github"></i></a></li>
+         <li><a href="mailto:leoy806@gmail.com"><i class="fa fa-envelope"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
 
 
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
 
-<body>
+   	<div class="row section-intro">
+   		<div class="col-twelve">
 
-	
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile.jpg" alt="Profile Picture">
+</p>
+   				<p class="lead">I am a UofT grad who just recently finished with an Honors in Bachelor of Science in the Specialist Software Engineering Stream. Currently, I am seeking a full-time developer role to further expand my experience in this field.</p>
+				<p class="lead">I am always striving to deepen my knowledge. From creating personal projects to hacking away at leetcode, I am always looking to equip myself with new skills!</p>
+				<p class="lead">I do like to take breaks from time to time. My personal hobbies include digital drawing, producing music, and editing videos. </p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+
+   			<ul class="info-list">
+
+   				<li>
+   					<strong>Full Name:</strong>
+   					<span>Tianhao Yao</span>
+   				</li>
+   				<li>
+   					<strong>Job Interests:</strong>
+   					<span>Fullstack Developer, Software Developer, DevOps</span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span>tianhaoyao.github.io</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>leoy806@gmail.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>Java</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent95"><span>95%</span></div>
+				   	<strong>Python</strong>
+				   </li>
+				   <li>
+					<div class="progress percent75"><span>75%</span></div>
+					<strong>HTML/CSS</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent80"><span>80%</span></div>
+				   	<strong>JavaScript</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>Node.js</strong>
+				   </li>
+				   <li>
+					<div class="progress percent85"><span>85%</span></div>
+					<strong>React</strong>
+				   </li>
+				   
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Contact" class="button stroke smoothscroll">Contact</a>
+   			<a href="resources/resume.pdf" title="Resume" class="button button-primary">Resume</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>My Journey of Learning</h1>
+
+   			<p class="lead">The experiences I've had so far. The journey never ends.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Quality Assurance</h3>
+	   					<p>Sept 2019 - Dec 2019</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>TD Canada</h4>
+	   					<p>Designed test cases and created test data to prepare for code migration. Implemented browser tests using Selenium/Cucumber.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Senior Quality Assurance Specialist</h3>
+	   					<p>Jan 2018 - Aug 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>CIBC Digital</h4>
+	   					<p>Reported malfunctioning marketing pixels (DTM) and resolved them. Tested browser/mobile ad functionality across various platforms.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelors Degree</h3>
+	   					<p>Sept 2016 - Dec 2020</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>University of Toronto</h4>
+	   					<p>Bachelors of Science. POSt: Specialist Software Engineering Stream.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
 		
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Personal Projects</h1>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/teamo.png" alt="TeamO">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">TeamO</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  Team sorter app
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/database.jpeg" alt="Database">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">AirBnb Database</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Database
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/matplotlib.png"alt="Matplotlib">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Matplotlib Open Source</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Design Choice
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/brain.png" alt="Brain">
+	                  <a href="#modal-04" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">More Coming Soon!</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  :)
+		     					      </span>		     		
+		     					   </div>  	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->     
 
 
 
-<section class="home">
-	
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
 
-	
-	
-		
-			
-	<header>
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/teamo.png" alt="" />
+				     	</div>      	
 
+					   <div class="description-box">
+					      <h4>TeamO</h4>		      
+					      <p>Fullstack webapp. React for frontend, MongoDB/Express for backend. Sorts League of Legends teams based on skill level and preferred position using algorithm modeled by CSP.</p>
 
+					      <div class="categories">Web Development</div>			               
+					   </div>
 
-			<div class="inner" id="home">
-			<div class="content">
-				
-				<img class="img-circle" src="resources/profile.jpg" alt="my beautiful face" style="width:45%;height:45%;" vspace=5%>
-				<br>
-				<h1>
-					Leo Yao
-				</h1>
+			         <div class="link-box">
+			            <a href="https://github.com/tianhaoyao/teamO">Github</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/database.jpeg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>AirBnb</h4>		      
+					      <p>An app written in Java to manage various parts of a (fake) AirBnb database. Designed with relational schemas in mind. Queries made using SQL.</p>
+
+					      <div class="categories">Database</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://github.com/tianhaoyao/AirBnb">Github</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/matplotlib.PNG" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Matplotlib</h4>		      
+					      <p>Resolved various issues raised by users (Report 1&2). Implemented axis breaks which scales the graph in relation to the break (Report 3). Emphasized on design choices (fascade pattern) to implement feature.</p>
+
+					      <div class="categories">Design Choice</div>			               
+					   </div>
+
+			         <div class="link-box">
+						<a href="resources/matplotlib_1.pdf">Report 1</a>
+						<a href="resources/matplotlib_2.pdf">Report 2</a>
+						<a href="resources/matplotlib_3.pdf">Report 3</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-03 -->
+				   
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>More Coming Soon</h4>		      
+					      <p>Stay Tuned.</p>
+
+					      <div class="categories">:)</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://github.com/tianhaoyao">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
 					
-				<h3>
-					UTSC · Software Engineer Specialist
-				</h3>
-					
-				<h3>
-					<a href=https://www.linkedin.com/in/leo-yao-b47162127/><i class="fab fa-linkedin-in" aria-hidden="true"></i></a> ·
-					<a href=https://github.com/tianhaoyao><i class="fab fa-github" aria-hidden="true"></i></a> ·
-					<a href=resources/Resume.pdf><i class="fas fa-file-alt" aria-hidden="true"></i></a>
-				</h3>
-			</div>
-		</div>
-		<div class="wave"></div>
-		</header>
-		
-		
-	</section>
+				   </div> <!-- /modal-04 -->
 
-
-
-	<placeholder>
-<nav class="navbar navbar-default navbar-fixed">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-
-			</div>
-			<div class="navbar-collapse collapse" id="myNavbar" aria-expanded="false">
-				<ul class="nav navbar-nav">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#introduction">Introduction</a></li>
-					<li><a href="#skills">Skills</a></li>
-					<li><a href="#projects">Projects</a></li>
-				</ul>
-			</div>
-		
-	</nav>
-
-	<section class="introduction">
-
-		
-
-	<div class="container-fluid" id="introduction">
-		
-		<div class="row">
-			<div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
-			<h2>Introduction</h2>
-			</div>
-			<div class="col-xs-12 col-sm-8 col-sm-offset-2 text-left">
-
-				<p>
-					Hello!
-				</p>
-				<p>
-					I am a 3rd year CS student studying in the Software Engineering Specialist program at University of Toronto Scarborough. I have just finished a work term with CIBC Digital as a Senior Quality Assurance Specialist, and am now continuing with my studies.
-				</p>
-				<p>
-					Working on team projects is a passion of mine. I am always fascinated by the sheer power of collaboration.
-				</p>
-				<p>
-					During my free time, I tend to learn and explore my hobbies. This includes digital drawing, creating music, and editing videos.
-				</p>
-			</div>
-		</div>
-	</section>
-	</div>
-
-	</section>
-	
-	<section class="Skills">
-		<div class="wave2"></div>
-		<header2>
-			
-			<div class="container-fluid" id="skills">
-		<div class="row">
-			<div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
 				
+<<<<<<< Updated upstream
 				<h2>Skills</h2>
 				<div class="col-md-12 text-center"> 
 					<button type="button" class="btn peach-gradient waves-effect" style="font-size: 100%; font-family: 'Consolas';">Java</button>
@@ -149,100 +492,155 @@
 	</div>
 
 		</header2>
+=======
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+>>>>>>> Stashed changes
 		
+	</section> <!-- /portfolio --> 
+
+
+	<!-- CTA Section
+   ================================================== -->
+	<section id="cta" class="grey-section">
+
+   	<div class="row cta-content">
+
+   		<div class="col-twelve section-ads">  
+
+	     		<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>
+
+		      <p class="lead">
+		      Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+				Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
+				<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->	
+				</p>
+
+				<div class="action">
+			      <a class="button button-primary large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
+		      </div>		     	
+
+   		</div>
+
+   	</div> <!-- /cta-content -->
+
+   </section> <!-- /cta --> 
+
+
+
 	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
 
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>Feel free to reach out to me via LinkedIn, Email, or Text!</h1>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<a href="https://www.linkedin.com/in/leo-yao-b47162127/"><i class="fa fa-linkedin"></i></a>
+   			</div>
+
+   			<h5>Connect with me</h5>
+
+   			<p>
+            Leo Yao
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+				<a href="mailto:leoy806@gmail.com"><i class="fa fa-envelope"></i></a>
+   			</div>
+
+   			<h5>Email Me</h5>
+
+   			<p>leoy806@gmail.com    
+			   </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="fa fa-mobile"></i>
+   			</div>
+
+   			<h5>Text Me At</h5>
+
+   			<p>Mobile: +1 (647) 578-6032
+			   </p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
 		
-	</section>
+	</section> <!-- /contact -->
 
 
-	<section class="projects">
-	<div class="container-fluid" id="projects">
-		<div class="row">
-			<div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
-				
-				<h2>
-					<font color="white">
-					Projects
-				</font>
-					
-				</h2>
-			
-			</div>
+   <!-- footer
+   ================================================== -->
 
-			<div class="col-xs-12 col-sm-8 col-sm-offset-2 text-left">
-				<a href="https://github.com/tianhaoyao/IceMatch">
-				<div class="col-sm-6 col-md-4 full caption-style-4">
-                <img src="resources/ice.jpg" class="img-responsive" alt="">
-                    <div class="caption">
-                      <div class="blur"></div>
-                      <div class="caption-text">
-                        <h1>IceMatch</h1>
-                        <p> A multiplayer icebreaking game which utilizes mobile phones as controllers</p>
-                      </div>
-                    </div>
-            </div>
-        </a>
-			
-		<a href="https://github.com/tianhaoyao/Team4">
-			<div class="col-sm-6 col-md-4 full caption-style-4">
-              <img src="resources/icare.jpg" class="img-responsive" alt="">
-                    <div class="caption">
-                      <div class="blur"></div>
-                      <div class="caption-text">
-                        <h1>iCare Form Management</h1>
-                        <p>Registers refugees into iCare system, equipped with SQL</p>
-                      </div>
-                    </div>
-            </div>
-        </a>
-            <div class="col-sm-6 col-md-4 full caption-style-4">
-               <img src="http://new.augustinba.com/wp-content/uploads/2015/04/boardingpass_aa.jpg" class="img-responsive" alt="">
-                    <div class="caption">
-                      <div class="blur"></div>
-                      <div class="caption-text">
-                        <h1>Coming Soon</h1>
-                        <p></p>
-                      </div>
-                    </div>
-            </div>
-            
-            </div>
+   <footer>
+     	<div class="row">
 
-            
-		</div>
-	</div>
-</section>
+     		<div class="col-six tab-full pull-right social">
 
+     			<ul class="footer-social">        
+					<li><a href="https://www.linkedin.com/in/leo-yao-b47162127/"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://github.com/tianhaoyao"><i class="fa fa-github"></i></a></li>
+					<li><a href="mailto:leoy806@gmail.com"><i class="fa fa-envelope"></i></a></li>
+			   </ul> 
+	      		
+	      </div>
 
-<section class="foot">
-	<div class="container-fluid" id="contact">
-		<div class="row">
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright Kards 2016.</span> 
+		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+		         </div>		                  
+	      	</div>
 
-			<div class="col-xs-12 col-sm-8 col-sm-offset-2 text-left">
-				<p><font color="white">&#169; copyright 2019</font></p>
-			</div>
-		</div>
-	</div>
-</section>
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
 
+      	</div> <!-- /row -->     	
+   </footer>  
 
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
 
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
-</placeholder>
 </body>
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
-<script src="js/waypoints.js" type="text/javascript"></script>
-<script src="js/navshrink.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/js/mdb.min.js"></script>
-</body>
+<<<<<<< Updated upstream
 </html>
+=======
+
+</html>
+>>>>>>> Stashed changes
